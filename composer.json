@@ -11,7 +11,7 @@
         "sso"
     ],
     "require": {
-        "php": ">= 8.1",
+        "php": ">= 8.4",
         "ecphp/cas-lib": "^3",
         "loophp/psr-http-message-bridge-bundle": "^1.0",
         "psr/http-client": "^1.0",
@@ -28,14 +28,14 @@
         "loophp/grumphp-license-task": "1.0.8",
         "loophp/unaltered-psr-http-message-bridge-bundle": "^2.0",
         "nyholm/psr7": "^1.8",
-        "phpspec/phpspec": "^7 || ^8",
+        "phpspec/phpspec": "^8",
         "phpstan/phpstan-symfony": "^1.1",
         "symfony/cache": "^8",
         "symfony/dependency-injection": "^8",
         "symfony/http-client": "^8",
         "symfony/routing": "^8",
         "symfony/security-bundle": "^8",
-        "veewee/xml": "^2.6 || ^3"
+        "veewee/xml": "^4"
     },
     "suggest": {
         "loophp/unaltered-psr-http-message-bridge-bundle": "A drop-in replacement for symfony/psr-http-message-bridge, that does not alter query parameters.",
