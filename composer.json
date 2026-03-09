@@ -30,11 +30,11 @@
         "nyholm/psr7": "^1.8",
         "phpspec/phpspec": "^8",
         "phpstan/phpstan-symfony": "^1.1",
-        "symfony/cache": "^8",
-        "symfony/dependency-injection": "^8",
-        "symfony/http-client": "^8",
-        "symfony/routing": "^8",
-        "symfony/security-bundle": "^8",
+        "symfony/cache": "^7 || ^8",
+        "symfony/dependency-injection": "^7 || ^8",
+        "symfony/http-client": "^7 || ^8",
+        "symfony/routing": "^7 || ^8",
+        "symfony/security-bundle": "^7 || ^8",
         "veewee/xml": "^4"
     },
     "suggest": {
